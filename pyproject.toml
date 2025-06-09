@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "time-series-course"
+version = "0.1.0"
+description = "Poetry environmment for my time series course"
+authors = ["Egor Howell <egorhowellbusiness@gmail.com>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.11"
+numpy = "^1.21.4"
+pandas = "^2.2.2"
+matplotlib = "^3.9.1"
+torch = "^2.3.1"
+scipy = "^1.14.0"
+statsmodels = "^0.14.2"
+hyperopt = "^0.2.7"
+plotly = "^5.22.0"
+scikit-learn = "^1.6.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
